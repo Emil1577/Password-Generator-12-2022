@@ -17,34 +17,80 @@ const capsLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 const symbols = "!\"#$%&'()*+,-.:;<=>?@[\\]_^{|}~`\"";
 
-function arrayslog() {
+
 
   console.log("YES");
 
-    if (w == true) {
+  if (w == true) {
 
-     console.log (numbers);
-    }
+    var a = numbers
+
+    console.log (a)
+
+  } else {
+
+    var a = ""
+
+  }
 
    if (x == true) {
 
-     console.log (letters);
+    var b = letters;
+    
+   console.log (b);
 
-   }
+  } else {
+
+    var b = ""
+
+  }
 
     if (y == true) {
 
-       console.log (capsLetters);
-   }
-  
+      var c = capsLetters;
+
+    console.log (c);
+
+  } else {
+
+    var c = ""
+
+  }
      if (z == true) {
   
-        console.log (symbols);
+
+      var d = symbols;
+
+      console.log (d);
+
+    } else {
+
+      var d = ""
+  
     }
-  }
+
+      console.log (a+b+c+d);
+
+      var o = (a+b+c+d);
+  
 
 
-arrayslog();
+
+  console.log (o);
+
+  //console.log (numbers + letters + capsLetters + symbols);
+
+  console.log 
+
+  console.log (arrayslog());
+
+
+  function logit(value){
+
+    console.log(value);
+ }
+ logit("something");
+
 
 //Use this formula 
 
