@@ -1,20 +1,65 @@
 // Assignment code here
 
+///
 
-//Use this formula 
+// create variables, function and formula for selectors of const.
 
-const number = "0123456789";
+var w = true;
+var x = true;
+var y = true;
+var z = true;
 
+const numbers = "0123456789";
 
-var randomNumber = (Math.floor(Math.random()* number.length));
-
-
-const letters = "abcdefghijklmnopqrstuvwxyz"
+const letters = "abcdefghijklmnopqrstuvwxyz";
 
 const capsLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 const symbols = "!\"#$%&'()*+,-.:;<=>?@[\\]_^{|}~`\"";
 
+function arrayslog() {
+
+  console.log("YES");
+
+    if (w == true) {
+
+     console.log (numbers);
+    }
+
+   if (x == true) {
+
+     console.log (letters);
+
+   }
+
+    if (y == true) {
+
+       console.log (capsLetters);
+   }
+  
+     if (z == true) {
+  
+        console.log (symbols);
+    }
+  }
+
+
+arrayslog();
+
+//Use this formula 
+
+
+
+
+
+
+
+
+
+
+
+
+//var randomNumber = (Math.floor(Math.random()* number.length))
 
 
 //console.log (randomNumber)
