@@ -71,10 +71,22 @@ var LengthOfPw is created to ask UI for the number length of the password desire
           userPreference += selector.symbols;
 
         }
-## Setting up the algorithms
 
-### Set variables and constants.  Created a function (arrayslog) to select which constants will log based on the variables. 
+Function to provide random arrays based on the UI (userPreference) selection from above.  Loop function will run based on the "lenghtOfPw" and will choose the array position based on the random number (Math.Random) is to scan every single array.  Every loop will be logged on the (password) and  will be added.
 
-### Was able to get the arrays with functions needed to suffice the password generator
+          var password = "";
 
+          for (let i = 0; i < lengthOfPw; i++) {
+
+          password += userPreference[Math.floor(Math.random() * userPreference.length)];
+
+          }
+
+          return password;
+
+
+          
+As soon as the loop is completed.  The formula above will provide the (generatePassword).  Then it will log to log in to the text box.
+
+Thank you.
 
